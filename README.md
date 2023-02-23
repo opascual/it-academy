@@ -1,7 +1,7 @@
-# Exercicis IT Academy
+# IT Academy Exercices
 
-Exercicis de maquetació
+Layout exercices
 
-## Nivell 1
+## Level 1
 
-A la carpeta nivell-1 es troba la maquetació del layout funcional per Desktop, Tablet i Mobile.
+Inside nivell-1 folder we can find the requested layout for Desktop, Tablet and Mobile.
