@@ -31,9 +31,22 @@ footer {
 header, main, footer {
     background: black;
 }
-
 header .topbar, header .featured {
     padding: 1rem;
+}
+header .topbar {
+    background: royalblue;
+}
+header .featured {
+    background: coral;
+}
+header .featured p {
+    background: yellow;
+    height: 100%;
+}
+
+.logo, nav, .social {
+    background: indianred;
 }
 
 main {
@@ -53,11 +66,20 @@ main section .posts {
     column-gap: 1rem;
 }
 
+.post-item {
+    background: cyan;
+}
+
 main aside {
     background: red;
     height: 100%;
     padding: 1rem;
     width: 30%;
+}
+
+main aside p {
+    background: yellowgreen;
+    margin-bottom: .5rem;
 }
 
 p {
@@ -79,20 +101,16 @@ footer p {
 */  
 @media (min-width: 1025px) {
     header .topbar {
-        background: royalblue;
         display: flex;
         align-items: center;
         height: 35%;
-    }
-    
+    }    
     header .featured {
-        background: coral;
         height: 55%;
         margin-top: .5rem;
     }
 
     .logo, nav, .social {
-        background: indianred;
         display: inline-block;
         height: 1rem;
     }
@@ -106,21 +124,10 @@ footer p {
         margin: auto 1rem;
     }
 
-    header .featured p {
-        background: yellow;
-        height: 100%;
-    }
-
     .post-item {
-        background: cyan;
         height: 1rem;
         margin-bottom: 1rem;
         width: 100%;
-    }
-
-    aside p {
-        background: yellowgreen;
-        margin-bottom: .5rem;
     }
 }
   
@@ -130,7 +137,68 @@ footer p {
 */
 @media (min-width: 768px) and (max-width: 1024px) {
 
-    /* CSS */
+    body {
+        margin: 0;
+        padding: 2rem;
+    }
+    header {
+        padding: 1.5rem;
+    }
+    header .topbar, header .featured {
+        height: 45%;
+        padding: 1.5rem;
+    }
+    header .topbar {
+        margin-bottom: .7rem;
+    }
+    .logo, nav, .social {
+        display: inline-block;
+        height: 100%;
+    }
+    .logo, .social {
+        width: 14%;
+    }
+    
+    nav {
+        width: 65%;
+        margin: auto 1rem;
+    }
+    main {
+        display: block;
+        padding: 1.5rem;
+    }
+    main section, main aside{
+        width: 100%;
+    }
+    main section {
+        height: 75%;
+        margin-bottom: 2rem;
+    }
+    main section .posts {
+        column-gap: 1.5rem;
+    }
+    .post-item {
+        height: 1.5rem;
+        margin-bottom: 1.5rem;
+        width: 100%;
+    }
+    main section p {
+        height: 1.5rem;
+    }
+    main aside {
+        height: 20%;
+    }
+    main aside p {
+        height: 1.5rem;
+        margin-bottom: 1rem;
+    }
+    footer {
+        height: 6%;
+        padding: 1.5rem;
+    }
+    footer p {
+        height: 1.5rem;
+    }
 }
   
 /* 
