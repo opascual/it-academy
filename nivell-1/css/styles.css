@@ -21,6 +21,7 @@ header {
 main {
     height: 60%;
     margin: 1rem auto;
+    padding: 1.2rem;
 }
 
 footer {
@@ -33,6 +34,35 @@ header, main, footer {
 
 header .topbar, header .featured {
     padding: 1rem;
+}
+
+main {
+    display: flex;
+}
+
+main section {
+    background: darkgray;
+    height: 100%;
+    margin-right: 1rem;
+    padding: 1rem;
+    width: 70%;
+}
+
+main section .posts {
+    column-count: 2;
+    column-gap: 1rem;
+}
+
+main aside {
+    background: red;
+    height: 100%;
+    padding: 1rem;
+    width: 30%;
+}
+
+p {
+    background-color: blue;
+    height: 1rem;
 }
 
 /* 
@@ -69,8 +99,20 @@ header .topbar, header .featured {
     }
 
     header .featured p {
-        background-color: yellow;
+        background: yellow;
         height: 100%;
+    }
+
+    .post-item {
+        background: cyan;
+        height: 1rem;
+        margin-bottom: 1rem;
+        width: 100%;
+    }
+
+    aside p {
+        background: yellowgreen;
+        margin-bottom: .5rem;
     }
 }
   
