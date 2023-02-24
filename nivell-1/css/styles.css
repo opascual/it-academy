@@ -146,6 +146,11 @@ footer p {
         column-count: 2;
         column-gap: 1rem;
     }
+    main section .posts .post-item {
+        height: 1rem;
+        margin-bottom: 1rem;
+        width: 100%;
+    }
     main aside {
         height: 100%;
         padding: 1rem;
@@ -153,11 +158,6 @@ footer p {
     }
     main aside p {
         margin-bottom: .5rem;
-    }
-    .post-item {
-        height: 1rem;
-        margin-bottom: 1rem;
-        width: 100%;
     }
     footer {
         height: 5%;
@@ -203,7 +203,7 @@ footer p {
         column-count: 2;
         column-gap: 1.5rem;
     }
-    .post-item {
+    main section .posts .post-item {
         height: 1.5rem;
         margin-bottom: 1.5rem;
         width: 100%;
