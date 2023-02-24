@@ -9,36 +9,33 @@ html, body {
 }
 
 body {
-    margin: 1.5rem auto;
-    max-width: 1200px;
+    padding: 2rem;
+}
+
+p {
+    background: blue;
+    height: 1.8rem;
 }
 
 header {
-    height: 20%;
-    padding: 1.2rem;
-}
-
-main {
-    height: 65%;
-    margin: 1rem auto;
-    padding: 1.2rem;
-}
-
-footer {
-    height: 5%;
+    height: 40%;
+    padding: 1.5rem;
 }
 
 header, main, footer {
     background: black;
 }
 header .topbar, header .featured {
-    padding: 1rem;
+    padding: 1.2rem;
 }
 header .topbar {
     background: royalblue;
+    height: 60%;
+    margin-bottom: 1.8rem;
 }
 header .featured {
     background: coral;
+    height: 27%;
 }
 header .featured p {
     background: yellow;
@@ -47,51 +44,47 @@ header .featured p {
 
 .logo, nav, .social {
     background: indianred;
+    height: 1.8rem;
+    margin-bottom: 1rem;
+    width: 100%;
 }
 
 main {
-    display: flex;
+    display: block;
+    height: 60%;
+    margin: 1.5rem auto;
+    padding: 1.5rem;
 }
-
 main section {
     background: rgb(86, 86, 116);
-    height: 100%;
-    margin-right: 1rem;
-    padding: 1rem;
-    width: 70%;
+    height: 62%;
+    margin-bottom: 2rem;
+    padding: 1.2rem;
+    width: 100%;
 }
-
-main section .posts {
-    column-count: 2;
-    column-gap: 1rem;
-}
-
-.post-item {
+main section .posts .post-item {
     background: cyan;
+    height: 1.5rem;
+    margin-bottom: 1.5rem;
+    width: 100%;
 }
-
 main aside {
     background: red;
-    height: 100%;
-    padding: 1rem;
-    width: 30%;
+    height: 28%;
+    padding: 1.2rem;
+    width: 100%;
 }
-
 main aside p {
     background: yellowgreen;
-    margin-bottom: .5rem;
-}
-
-p {
-    background: blue;
-    height: 1rem;
+    margin-bottom: 1rem;
 }
 
 footer {
-    padding: 1rem;
+    height: 10%;
+    padding: 1.5rem;
 }
-
 footer p {
+    height: 100%;
     background: orange;
 }
 
@@ -100,6 +93,18 @@ footer p {
     ##Screen = minimum 1025px
 */  
 @media (min-width: 1025px) {
+    body {
+        margin: 1.5rem auto;
+        max-width: 1200px;
+        padding: 0;
+    }
+    p {
+        height: 1rem;
+    }
+    header {
+        height: 20%;
+        padding: 1.2rem;
+    }
     header .topbar {
         display: flex;
         align-items: center;
@@ -113,6 +118,7 @@ footer p {
     .logo, nav, .social {
         display: inline-block;
         height: 1rem;
+        margin: 0;
     }
 
     .logo, .social {
@@ -123,11 +129,39 @@ footer p {
         width: 75%;
         margin: auto 1rem;
     }
-
+    main {
+        display: flex;
+        height: 65%;
+        margin: 1rem auto;
+        padding: 1.2rem;
+    }
+    main section {
+        height: 100%;
+        margin-bottom: 0;
+        margin-right: 1rem;
+        padding: 1rem;
+        width: 70%;
+    }
+    main section .posts {
+        column-count: 2;
+        column-gap: 1rem;
+    }
+    main aside {
+        height: 100%;
+        padding: 1rem;
+        width: 30%;
+    }
+    main aside p {
+        margin-bottom: .5rem;
+    }
     .post-item {
         height: 1rem;
         margin-bottom: 1rem;
         width: 100%;
+    }
+    footer {
+        height: 5%;
+        padding: 1rem;
     }
 }
   
@@ -136,13 +170,8 @@ footer p {
     ##Screen = B/w 768px to 1024px
 */
 @media (min-width: 768px) and (max-width: 1024px) {
-
-    body {
-        margin: 0;
-        padding: 2rem;
-    }
     header {
-        padding: 1.5rem;
+        height: 20%;
     }
     header .topbar, header .featured {
         height: 45%;
@@ -154,27 +183,24 @@ footer p {
     .logo, nav, .social {
         display: inline-block;
         height: 100%;
+        margin: 0;
     }
     .logo, .social {
         width: 14%;
     }
     
     nav {
-        width: 65%;
         margin: auto 1rem;
+        width: 65%;
     }
     main {
-        display: block;
-        padding: 1.5rem;
-    }
-    main section, main aside{
-        width: 100%;
+        height: 65%;
     }
     main section {
         height: 75%;
-        margin-bottom: 2rem;
     }
     main section .posts {
+        column-count: 2;
         column-gap: 1.5rem;
     }
     .post-item {
@@ -190,41 +216,11 @@ footer p {
     }
     main aside p {
         height: 1.5rem;
-        margin-bottom: 1rem;
     }
     footer {
         height: 6%;
-        padding: 1.5rem;
     }
     footer p {
         height: 1.5rem;
     }
-}
-  
-/* 
-    ##Device = Tablets, Ipads (landscape)
-    ##Screen = B/w 768px to 1024px
-*/
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-
-    /* CSS */
-}
-  
-/* 
-    ##Device = Low Resolution Tablets, Mobiles (Landscape)
-    ##Screen = B/w 481px to 767px
-*/
-  
-@media (min-width: 481px) and (max-width: 767px) {
-
-    /* CSS */
-}
-  
-/* 
-    ##Device = Most of the Smartphones Mobiles (Portrait)
-    ##Screen = B/w 320px to 479px
-*/  
-@media (min-width: 320px) and (max-width: 480px) {
-
-    /* CSS */
 }
