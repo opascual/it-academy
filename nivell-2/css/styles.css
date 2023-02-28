@@ -91,12 +91,10 @@ header .featured h1 {
 
 main {
     display: block;
-    height: 60%;
     margin: 1.5rem auto;
 }
 main section {
     background: #bbb;
-    height: 62%;
     margin-bottom: 2rem;
     padding: 1.2rem;
     width: 100%;
@@ -109,7 +107,7 @@ main section .posts .post-item {
 }
 main aside {
     background: #bbb;
-    height: 28%;
+    min-height: 200px;
     padding: 1.2rem;
     text-align: center;
     width: 100%;
@@ -123,14 +121,14 @@ main aside p {
 
 footer {
     background: #bbb;
-    height: 10%;
+    padding: 0 .5rem;
     text-align: center;
 }
 footer p {
     height: 100%;
     background: #eee;
     color: rgb(85, 84, 84);
-    padding-top: 1rem;
+    padding: 1rem 0;
 }
 
 /* 
@@ -220,7 +218,6 @@ footer p {
     }
     footer {
         height: 5%;
-        padding: 0 .5rem;
     }
 }
   
@@ -262,12 +259,6 @@ footer p {
         padding-top: 1.5rem;
         width: 90%;
     }
-    main {
-        height: 65%;
-    }
-    main section {
-        height: 75%;
-    }
     main section .posts {
         column-count: 2;
         column-gap: 1.5rem;
@@ -281,15 +272,9 @@ footer p {
         height: 1.5rem;
     }
     main aside {
-        height: 20%;
+        min-height: 150px;
     }
     main aside p {
-        height: 1.5rem;
-    }
-    footer {
-        height: 6%;
-    }
-    footer p {
         height: 1.5rem;
     }
 }
