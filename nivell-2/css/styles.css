@@ -90,43 +90,47 @@ header .featured h1 {
 }
 
 main {
-    background: black;
     display: block;
     height: 60%;
     margin: 1.5rem auto;
-    padding: 1.5rem;
 }
 main section {
-    background: rgb(86, 86, 116);
+    background: #bbb;
     height: 62%;
     margin-bottom: 2rem;
     padding: 1.2rem;
     width: 100%;
 }
 main section .posts .post-item {
-    background: cyan;
+    background: #eee;
     height: 1.5rem;
     margin-bottom: 1.5rem;
     width: 100%;
 }
 main aside {
-    background: red;
+    background: #bbb;
     height: 28%;
     padding: 1.2rem;
+    text-align: center;
     width: 100%;
 }
+main aside h3 {
+    margin-bottom: 1rem;
+}
 main aside p {
-    background: yellowgreen;
     margin-bottom: 1rem;
 }
 
 footer {
+    background: #bbb;
     height: 10%;
-    padding: 1.5rem;
+    text-align: center;
 }
 footer p {
     height: 100%;
-    background: orange;
+    background: #eee;
+    color: rgb(85, 84, 84);
+    padding-top: 1rem;
 }
 
 /* 
@@ -189,7 +193,6 @@ footer p {
         display: flex;
         height: 65%;
         margin: 1rem auto;
-        padding: 1.2rem;
     }
     main section {
         height: 100%;
@@ -217,7 +220,7 @@ footer p {
     }
     footer {
         height: 5%;
-        padding: 1rem;
+        padding: 0 .5rem;
     }
 }
   
