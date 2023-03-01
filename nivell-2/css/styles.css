@@ -32,6 +32,7 @@ header .topbar {
     width: 100%;
 }
 .logo {
+    animation: fadeFromTop 1s ease-in;
     height: auto;
     text-align: center;
     margin-bottom: 1rem;
@@ -78,6 +79,7 @@ header .featured {
     text-align: center;
 }
 header .featured h1 {
+    animation: fadeIn 2s ease-in;
     background: rgba(0,0,0,.3);
     color: rgb(240, 145, 134);
     font-family: 'Times New Roman', Times, serif;
@@ -293,5 +295,25 @@ footer p {
     }
     main aside {
         min-height: 150px;
+    }
+}
+
+@keyframes fadeFromTop {
+    0% {
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
     }
 }
