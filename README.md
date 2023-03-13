@@ -1,6 +1,7 @@
 # IT Academy Exercices
 
-Layout exercices & level test
+- Fizzbuzz technical test
+- Layout exercices
 
 ## Fizzbuzz test
 
