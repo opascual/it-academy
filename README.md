@@ -1,6 +1,14 @@
 # IT Academy Exercices
 
-Layout exercices
+Layout exercices & level test
+
+## Fizzbuzz test
+
+Technical test to print a list of numbers with some restrictions using TDD:
+
+- Print fizz if the number is multiple of 3
+- Print buzz if the number is multiple of 5
+- Print fizzbuzz if the number is multiple of 3 and 5
 
 ## Level 1
 
