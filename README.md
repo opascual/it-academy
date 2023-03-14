@@ -22,3 +22,17 @@ Inside nivell-2 folder we can find the final website with graphics and icons. Th
 ## Level 3
 
 Inside nivell-3 folder we develop the final website with graphics and icons but using Grid layout. The layout will be responsive for Desktop, Tablet and Mobile.
+
+## PHP
+
+- `HelloWorld.php` is the classical introductory exercise. Just returns "Hello, World!".
+
+- `ReverseString.php` reverse a string.
+
+- `ResistorColor.php` look up the numerical value associated with a particular color band to list the different band colors.
+
+- `Hamming.php` calculates the Hamming Distance between two DNA strands. If we compare two strands of DNA and count the differences between them we can see how many mistakes occurred. This is known as the "Hamming Distance".
+
+- `Gigasecond.php` determine the date and time one gigasecond after a certain date. A gigasecond is one thousand million seconds. If you were born on `January 24th, 2015 at 22:00 (10:00:00pm)`, then you would be a gigasecond old on `October 2nd, 2046 at 23:46:40 (11:46:40pm)`.
+
+- `Tournament.php` talls the results of a small football competition. The outcome should be ordered by points, descending. In case of a tie, teams are ordered alphabetically.
