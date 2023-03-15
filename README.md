@@ -36,3 +36,5 @@ Inside nivell-3 folder we develop the final website with graphics and icons but 
 - `Gigasecond.php` determine the date and time one gigasecond after a certain date. A gigasecond is one thousand million seconds. If you were born on `January 24th, 2015 at 22:00 (10:00:00pm)`, then you would be a gigasecond old on `October 2nd, 2046 at 23:46:40 (11:46:40pm)`.
 
 - `Tournament.php` talls the results of a small football competition. The outcome should be ordered by points, descending. In case of a tie, teams are ordered alphabetically.
+
+- `SimpleCipher.php` implements a simple shift cipher like Caesar and a more secure substitution cipher. The code allow us to specify a key and use that for the shift distance. This is called a substitution cipher. If someone doesn't submit a key at all, generates a truly random key of at least 100 alphanumeric characters in length.
