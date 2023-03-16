@@ -33,10 +33,5 @@ const DNA_TO_RNA = [
 
 function toRna(string $dna): string
 {
-    $rna = '';
-    for($i = 0; $i < strlen($dna); $i++) {
-        $rna .= DNA_TO_RNA[$dna[$i]];
-    }
-
-    return $rna;
+    return strtr($dna, DNA_TO_RNA);
 }
