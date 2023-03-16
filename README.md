@@ -40,3 +40,15 @@ Inside nivell-3 folder we develop the final website with graphics and icons but 
 - `SimpleCipher.php` implements a simple shift cipher like Caesar and a more secure substitution cipher. The code allow us to specify a key and use that for the shift distance. This is called a substitution cipher. If someone doesn't submit a key at all, generates a truly random key of at least 100 alphanumeric characters in length.
 
 - `HighScores.php` returns the list of scores, the highest score from the list, the last added score and the three highest scores.
+
+- `Bob.php` Bob is a lackadaisical teenager. In conversation, his responses are very limited.
+
+  - Bob answers 'Sure.' if you ask him a question, such as "How are you?".
+
+  - He answers 'Whoa, chill out!' if you YELL AT HIM (in all capitals).
+
+  - He answers 'Calm down, I know what I'm doing!' if you yell a question at him.
+
+  - He says 'Fine. Be that way!' if you address him without actually saying anything.
+
+  - He answers 'Whatever.' to anything else.
