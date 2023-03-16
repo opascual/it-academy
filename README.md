@@ -54,3 +54,5 @@ Inside nivell-3 folder we develop the final website with graphics and icons but 
   - He answers 'Whatever.' to anything else.
 
 - `RnaTranscription.php` given a DNA strand, return its RNA complement (per RNA transcription).
+
+- `Luhn.php` given a number determines whether or not it is valid per the Luhn formula. The Luhn algorithm is a simple checksum formula used to validate a variety of identification numbers, such as credit card numbers and Canadian Social Insurance Numbers.
