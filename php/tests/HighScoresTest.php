@@ -26,7 +26,7 @@ class HighScoresTest extends \PHPUnit\Framework\TestCase
 {
     public static function setUpBeforeClass(): void
     {
-        require_once './src/HighScores.php';
+        require_once './php/src/HighScores.php';
     }
 
     public function testListOfScores(): void

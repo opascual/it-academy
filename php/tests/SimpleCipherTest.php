@@ -26,7 +26,7 @@ class SimpleCipherTest extends PHPUnit\Framework\TestCase
 {
     public static function setUpBeforeClass(): void
     {
-        require_once './src/SimpleCipher.php';
+        require_once './php/src/SimpleCipher.php';
     }
 
     public function testRandomCipherKeyIsLetters(): void

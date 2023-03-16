@@ -25,7 +25,7 @@ class ReverseStringTest extends PHPUnit\Framework\TestCase
 {
     public static function setUpBeforeClass(): void
     {
-        require_once './src/ReverseString.php';
+        require_once './php/src/ReverseString.php';
     }
 
     public function testEmptyString(): void

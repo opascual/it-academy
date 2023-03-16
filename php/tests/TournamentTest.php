@@ -28,7 +28,7 @@ class TournamentTest extends PHPUnit\Framework\TestCase
 
     public static function setUpBeforeClass(): void
     {
-        require_once './src/Tournament.php';
+        require_once './php/src/Tournament.php';
     }
 
     protected function setUp(): void
