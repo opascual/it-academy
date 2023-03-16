@@ -38,3 +38,5 @@ Inside nivell-3 folder we develop the final website with graphics and icons but 
 - `Tournament.php` talls the results of a small football competition. The outcome should be ordered by points, descending. In case of a tie, teams are ordered alphabetically.
 
 - `SimpleCipher.php` implements a simple shift cipher like Caesar and a more secure substitution cipher. The code allow us to specify a key and use that for the shift distance. This is called a substitution cipher. If someone doesn't submit a key at all, generates a truly random key of at least 100 alphanumeric characters in length.
+
+- `HighScores.php` returns the list of scores, the highest score from the list, the last added score and the three highest scores.
