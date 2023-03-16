@@ -52,3 +52,5 @@ Inside nivell-3 folder we develop the final website with graphics and icons but 
   - He says 'Fine. Be that way!' if you address him without actually saying anything.
 
   - He answers 'Whatever.' to anything else.
+
+- `RnaTranscription.php` given a DNA strand, return its RNA complement (per RNA transcription).
