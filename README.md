@@ -60,3 +60,7 @@ Inside nivell-3 folder we develop the final website with graphics and icons but 
 - `Isogram.php` determine if a word or phrase is an isogram. An isogram (also known as a "nonpattern word") is a word or phrase without a repeating letter, however spaces and hyphens are allowed to appear multiple times.
 
 - `Robot.php` generates a random name in the format of two uppercase letters followed by three digits, such as RX837 or BC811. Every once in a while we need to reset a robot to its factory settings, which means that its name gets wiped. The next time you ask, that robot will respond with a new random name. The names must be random and ensure that every existing robot has a unique name.
+
+- `DifferenceOfSquares.php` finds the difference between the square of the sum and the sum of the squares of the first N natural.
+  - The square of the sum of n natural numbers (1 + 2 + ... + n)²
+  - The sum of the squares of n natural numbers 1² + 2² + ... + n²
