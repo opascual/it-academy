@@ -64,3 +64,4 @@ Inside nivell-3 folder we develop the final website with graphics and icons but 
 - `DifferenceOfSquares.php` finds the difference between the square of the sum and the sum of the squares of the first N natural.
   - The square of the sum of n natural numbers (1 + 2 + ... + n)²
   - The sum of the squares of n natural numbers 1² + 2² + ... + n²
+  - Difference between first and second
