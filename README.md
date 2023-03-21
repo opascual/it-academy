@@ -62,6 +62,12 @@ Inside nivell-3 folder we develop the final website with graphics and icons but 
 - `Robot.php` generates a random name in the format of two uppercase letters followed by three digits, such as RX837 or BC811. Every once in a while we need to reset a robot to its factory settings, which means that its name gets wiped. The next time you ask, that robot will respond with a new random name. The names must be random and ensure that every existing robot has a unique name.
 
 - `DifferenceOfSquares.php` finds the difference between the square of the sum and the sum of the squares of the first N natural.
+
   - The square of the sum of n natural numbers (1 + 2 + ... + n)² => `(n * (n + 1)) / 2`.
   - The sum of the squares of n natural numbers 1² + 2² + ... + n² => `(n * (n + 1) * ((n * 2) + 1)) / 6`
   - Difference between first and second
+
+- `GradeSchool.php` creates a roster for the school given student's names along with the grade that they are in.
+  - Add a student's name to the roster for a grade
+  - Get a list of all students enrolled in a grade
+  - Get a sorted list of all students in all grades. Grades should sort as 1, 2, 3, etc., and students within a grade should be sorted alphabetically by name.
