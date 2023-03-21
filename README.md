@@ -68,6 +68,12 @@ Inside nivell-3 folder we develop the final website with graphics and icons but 
   - Difference between first and second
 
 - `GradeSchool.php` creates a roster for the school given student's names along with the grade that they are in.
+
   - Add a student's name to the roster for a grade
   - Get a list of all students enrolled in a grade
   - Get a sorted list of all students in all grades. Grades should sort as 1, 2, 3, etc., and students within a grade should be sorted alphabetically by name.
+
+- `RobotSimulator.php` The robots have three possible movements: turn right, turn left and advance. Robots are placed on a hypothetical infinite grid, facing a particular direction (north, east, south, or west) at a set of {x,y} coordinates. The robot then receives a number of instructions, as a string, at which point the testing facility verifies the robot's new position, and in which direction it is pointing, where:
+  - A = advance
+  - R = turn right
+  - L = turn left
